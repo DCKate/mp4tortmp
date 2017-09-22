@@ -1,5 +1,5 @@
-#ifndef _AVAPIs2_RTMP_H_
-#define _AVAPIs2_RTMP_H_
+#ifndef _MKRTMP_H_
+#define _MKRTMP_H_
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -35,4 +35,4 @@ int rtmp_write_audio_frame(srs_rtmp_t rtmp, char *audio_aac, int aac_size, char 
 int rtmp_init(srs_rtmp_t rtmp);
 int rtmp_deinit(srs_rtmp_t rtmp);
 
-#endif // _AVAPIs2_RTMP_H_
+#endif // _MKRTMP_H_
